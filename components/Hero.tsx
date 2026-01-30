@@ -51,12 +51,10 @@ const Hero: React.FC = () => {
                    <div className="relative w-full h-full flex flex-col items-center justify-center space-y-8">
                       <div className="relative w-full bg-[#1a1a1e] rounded-[40px] p-2 border border-white/5 shadow-inner">
                          <img 
-                            src="image.png" 
+                            src="../image.png" 
                             alt="Buddy Team Art" 
                             className="w-full h-auto rounded-[32px] shadow-2xl block mx-auto"
-                            onError={(e) => {
-                              (e.target as HTMLImageElement).src = 'https://i.ibb.co/Lzr2KrkS/buddy-team-art.jpg';
-                            }}
+                          
                          />
                       </div>
                       

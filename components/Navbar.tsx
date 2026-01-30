@@ -46,8 +46,13 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate, onAuthNavigate
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div onClick={() => handleLinkClick('home')} className="flex items-center space-x-3 group cursor-pointer">
-            <div className="relative w-12 h-12 flex items-center justify-center bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-300 border border-white/20">
-               <Sparkles className="w-6 h-6 text-white" />
+            <div className="relative w-12 h-12 flex items-center justify-center ">
+                <img 
+                            src="../image.png" 
+                            alt="Buddy Team Art" 
+                            className="w-full h-auto rounded-[12px] shadow-2xl block mx-auto"
+                          
+                         />
             </div>
             <div>
               <span className="text-2xl font-black tracking-tighter text-white">Buddy<span className="text-purple-400">Team</span></span>
