@@ -48,7 +48,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate, onAuthNavigate
           <div onClick={() => handleLinkClick('home')} className="flex items-center space-x-3 group cursor-pointer">
             <div className="relative w-12 h-12 flex items-center justify-center ">
                 <img 
-                            src="../image.png" 
+                            src="/image.png" 
                             alt="Buddy Team Art" 
                             className="w-full h-auto rounded-[12px] shadow-2xl block mx-auto"
                           
